@@ -32,7 +32,6 @@ export default {
     // const date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
     // const dateTime = date;
     const percentage = (CurPros / 45) * 100
-    console.log(percentage)
     b.innerHTML = percentage.toFixed(0) + "%"
     a.style.width = percentage + "%"
   }
